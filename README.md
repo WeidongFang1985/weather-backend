@@ -29,7 +29,7 @@ init workflow
 index.js -> loaders/index.js -> express.js -> mongoose.js  
 
 api
-loaders/express.js -> routes -> middleware -> validation -> controller -> services -> model  
+loaders/express.js -> routes -> middleware(not all api endpoint need) -> validation -> controller -> services -> model  
 ---------------------------------------------------------------------------------------------
 (config can be used anyway in the application)  
 
