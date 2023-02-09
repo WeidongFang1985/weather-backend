@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const apiRouter = require('../app/routes/api/v1/api')
-const config = require('../app/config')
+const apiRouter = require('../../app/routes/api/v1/api')
+const config = require('../../app/config')
 
 
 const startServer = () => {

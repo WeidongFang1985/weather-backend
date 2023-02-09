@@ -3,7 +3,7 @@
 // init()
 
 // exports.init
-const loaders = require('./loaders');
+const loaders = require('./loaders/mongoose');
 
 loaders.init()
 
